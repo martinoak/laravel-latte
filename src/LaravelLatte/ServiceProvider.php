@@ -33,8 +33,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $latte = new Latte();
         $latte->setTempDirectory($config->get('view.compiled'));
 
-        $latte->addExtension(new Extension());
-
         return $latte;
     }
 
