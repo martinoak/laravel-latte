@@ -1,5 +1,5 @@
 {
-    "name": "marvelousmartin/laravel-latte",
+    "name": "martinoak/laravel-latte",
     "description": "Latte template engine for Laravel 10+",
     "keywords": ["laravel", "latte", "template", "view"],
     "license": "MIT",
@@ -17,13 +17,6 @@
     "autoload": {
         "psr-4": {
             "MarvelousMartin\\LaravelLatte\\": "src/LaravelLatte"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LaravelLatte\\LatteServiceProvider"
-            ]
         }
     },
     "minimum-stability": "dev"
