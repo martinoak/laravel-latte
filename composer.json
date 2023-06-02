@@ -1,0 +1,30 @@
+{
+    "name": "marvelousmartin/laravel-latte",
+    "description": "Latte template engine for Laravel 10+",
+    "keywords": ["laravel", "latte", "template", "view"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Dub",
+            "email": "oakk.martin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "latte/latte": "^3.0",
+        "laravel/framework": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarvelousMartin\\LaravelLatte\\": "src/LaravelLatte"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelLatte\\LatteServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
