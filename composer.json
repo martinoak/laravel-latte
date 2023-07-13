@@ -19,5 +19,12 @@
             "MarvelousMartin\\LaravelLatte\\": "src/LaravelLatte"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarvelousMartin\\LaravelLatte\\ServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
