@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarvelousMartin\LaravelLatte;
+namespace MartinOak\LaravelLatte;
 
 use Illuminate\Foundation\Application;
 use Latte\Engine as Latte;
@@ -37,7 +37,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     }
 
     /**
-     * @return \MarvelousMartin\LaravelLatte\LatteEngine
+     * @return \MartinOak\LaravelLatte\LatteEngine
      */
     private function createEngine(): LatteEngine
     {

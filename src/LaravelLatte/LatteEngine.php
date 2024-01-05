@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarvelousMartin\LaravelLatte;
+namespace MartinOak\LaravelLatte;
 
 use Latte\Engine;
 

@@ -6,7 +6,7 @@ Nahrazuje výchozí šablonovací systém [Blade](https://laravel.com/docs/8.x/b
 Instalace
 ---------
 ```
-$ composer require marvelousmartin/laravel-latte
+$ composer require martinoak/laravel-latte
 ```
 
 Použití
@@ -19,7 +19,7 @@ Do souboru `config/app.php`:
         /*
          * Package Service Providers...
          */
-        MarvelousMartin\LaravelLatte\ServiceProvider::class
+        MartinOak\LaravelLatte\ServiceProvider::class
 
     ],
 

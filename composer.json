@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MarvelousMartin\\LaravelLatte\\": "src/LaravelLatte"
+            "MartinOak\\LaravelLatte\\": "src/LaravelLatte"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MarvelousMartin\\LaravelLatte\\ServiceProvider"
+                "MartinOak\\LaravelLatte\\ServiceProvider"
             ]
         }
     },
