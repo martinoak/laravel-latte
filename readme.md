@@ -3,6 +3,11 @@ Laravel Latte
 
 Nahrazuje výchozí šablonovací systém [Blade](https://laravel.com/docs/8.x/blade) za české [Latte](https://latte.nette.org)
 
+Prerekvizity
+------------
+- [Laravel](https://laravel.com/docs/9.x/installation) verze 11.0
+- [PHP](https://www.php.net/downloads) alespoň ve verzi 8.2
+
 Instalace
 ---------
 ```
